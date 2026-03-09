@@ -1,0 +1,10 @@
+*.pth
+*.pt
+*.ckpt
+__pycache__/
+*.pyc
+dataset/
+.env
+venv/
+.idea/
+.vscode/
