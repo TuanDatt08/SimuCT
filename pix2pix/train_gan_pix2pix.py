@@ -84,4 +84,4 @@ for epoch in range(1, 201):
 
 # LƯU TRỌNG SỐ SAU CÙNG
 torch.save(netG.state_dict(), os.path.join(CHECKPOINT_DIR, "pix2pix_final.pth"))
-print(f"File của bạn nằm ở: {CHECKPOINT_DIR}\pix2pix_final.pth")
+print(f"File của bạn nằm ở: {os.path.join(CHECKPOINT_DIR, 'pix2pix_final.pth')}")
